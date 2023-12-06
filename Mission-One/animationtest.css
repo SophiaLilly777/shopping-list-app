@@ -1,0 +1,141 @@
+/* @keyframes boat {
+    0% {
+        rotate: 10deg;
+    }
+    25% {
+        rotate: -10deg;
+    }
+    50% {
+        rotate: 8deg;
+    }
+    75% {
+        rotate: -16deg;
+    }
+    100% {
+        rotate: 10deg;
+    }
+}
+
+#sailing {
+    animation-name: boat;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: blue;
+}
+
+@keyframes cottage {
+    0% {
+        color: green;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    100% {
+        color: green;
+    }
+}
+
+#cottage {
+    animation-name: cottage;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mountain {
+    0% {
+        size: 100%;
+    }
+    50% {
+        size: 150%;
+    }
+    100% {
+        size:
+    }
+}
+
+#mountain {
+    animation-name: mountain;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: gray;
+    background-color: darkgrey;
+    padding: 2%;
+    border-radius: 100%;
+} */
+
+@keyframes divider1 {
+    0% {
+        rotate: 0deg;
+        scale: 100%;
+        background-color: pink;
+    }
+    12.5% {
+        rotate: 45deg;
+        scale: 85%;
+        background-color: rgb(240, 121, 141);
+    }
+
+    25% {
+        rotate: 90deg;
+        scale: 100%;
+        background-color: pink;
+    }
+
+    37.5% {
+        rotate: 135deg;
+        scale: 85%;
+        background-color: rgb(240, 121, 141);
+    }
+    
+    50% {
+        rotate: 180deg;
+        scale: 100%;
+        background-color: pink;
+    }
+
+    62.5% {
+        rotate: 225deg;
+        scale: 85%;
+        background-color: rgb(240, 121, 141);
+    }
+
+    75% {
+        rotate: 270deg;
+        scale: 100%;
+        background-color: pink;
+    }
+
+    87.5% {
+        rotate: 315deg;
+        scale: 85%;
+        background-color: rgb(240, 121, 141);
+    }
+
+    100% {
+        rotate: 360deg;
+        scale: 100%;
+        background-color: pink;
+    }
+}
+
+.box1, .box2 {
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    animation-name: divider1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 5px;
+}
+
+.box2 {
+    animation-delay: 0.5s;
+}
+
+.flex-anim {
+    display: flex;
+    justify-content: center;
+}
