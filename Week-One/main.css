@@ -1,0 +1,17 @@
+h1 {
+    font-size: 45px;
+}
+
+body {
+    background-color: rgb(129, 129, 255);
+
+}
+
+p {
+    margin: 35px 0 px;
+}
+
+#intro {
+    font-family: "tahoma";
+    color: purple;
+}
