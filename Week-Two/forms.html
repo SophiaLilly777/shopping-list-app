@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Simple Forms</title>
+      <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    <body>
+        <form action="mailto:sophiaki@missionreadyhq.com" method="post" autocomplete="on">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required placeholder="email">
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <input type="radio" id="sales" name="subject">
+            <label for="sales">Sales</label>
+            <br>
+            <input type="radio" id="support" name="subject">
+            <label for="support">Support</label>
+            <br>
+            <input type="radio" id="other" name="subject">
+            <label for="other">Other</label>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" placeholder="type here"></textarea>
+            <br>
+            <input type="submit" id="submit">
+        </form>
+    </body>
+</html>
